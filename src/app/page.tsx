@@ -65,6 +65,30 @@ function ScoreBar({ score, max }: { score: number; max: number }) {
   );
 }
 
+function JsonLd({ data }: { data: Rankings }) {
+  const items = data.rankings.slice(0, 10).map((t, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: t.name,
+    url: t.url,
+    description: t.description,
+  }));
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "AI Tools Ranking 2026",
+    description: "Developer community mentions-based AI tools ranking",
+    numberOfItems: data.total_tools,
+    itemListElement: items,
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export default function Home() {
   const data = loadRankings();
   const maxScore = Math.max(...data.rankings.map((t) => t.scores.composite), 1);
@@ -72,6 +96,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+      <JsonLd data={data} />
       {/* Header */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
         <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
