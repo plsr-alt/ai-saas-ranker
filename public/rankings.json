@@ -1,0 +1,554 @@
+{
+  "generated_at": "2026-03-31T20:22:35.891166+00:00",
+  "total_tools": 25,
+  "rankings": [
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "category": "AI Assistant",
+      "url": "https://chat.openai.com",
+      "description": "OpenAI's conversational AI assistant for writing, coding, analysis, and more",
+      "pricing": "Free / Plus $20/mo / Pro $200/mo",
+      "affiliate_url": "",
+      "tags": [
+        "chatbot",
+        "writing",
+        "coding",
+        "analysis"
+      ],
+      "scores": {
+        "github_repos": 71169,
+        "qiita_mentions": 100,
+        "composite": 400
+      },
+      "rank": 1,
+      "last_updated": "2026-03-31T20:21:11.320873+00:00"
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "category": "AI Assistant",
+      "url": "https://claude.ai",
+      "description": "Anthropic's AI assistant with advanced reasoning and long context window",
+      "pricing": "Free / Pro $20/mo / Max $100/mo",
+      "affiliate_url": "",
+      "tags": [
+        "chatbot",
+        "writing",
+        "coding",
+        "reasoning"
+      ],
+      "scores": {
+        "github_repos": 100000,
+        "qiita_mentions": 100,
+        "composite": 400
+      },
+      "rank": 2,
+      "last_updated": "2026-03-31T20:21:14.781924+00:00"
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "category": "AI Code Editor",
+      "url": "https://cursor.sh",
+      "description": "AI-first code editor built on VS Code with inline AI assistance",
+      "pricing": "Free / Pro $20/mo / Business $40/mo",
+      "affiliate_url": "",
+      "tags": [
+        "coding",
+        "ide",
+        "developer"
+      ],
+      "scores": {
+        "github_repos": 44294,
+        "qiita_mentions": 100,
+        "composite": 400
+      },
+      "rank": 3,
+      "last_updated": "2026-03-31T20:21:18.283154+00:00"
+    },
+    {
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "AI Code Editor",
+      "url": "https://github.com/features/copilot",
+      "description": "AI pair programmer that suggests code completions in real-time",
+      "pricing": "Individual $10/mo / Business $19/mo / Enterprise $39/mo",
+      "affiliate_url": "",
+      "tags": [
+        "coding",
+        "developer",
+        "autocomplete",
+        "github"
+      ],
+      "scores": {
+        "github_repos": 100000,
+        "qiita_mentions": 100,
+        "composite": 400
+      },
+      "rank": 4,
+      "last_updated": "2026-03-31T20:21:35.768056+00:00"
+    },
+    {
+      "slug": "claude-code",
+      "name": "Claude Code",
+      "category": "AI Code Editor",
+      "url": "https://claude.ai/code",
+      "description": "Anthropic's agentic coding tool for terminal, desktop, and web",
+      "pricing": "Included with Claude Max $100/mo",
+      "affiliate_url": "",
+      "tags": [
+        "coding",
+        "terminal",
+        "agentic",
+        "developer"
+      ],
+      "scores": {
+        "github_repos": 67209,
+        "qiita_mentions": 100,
+        "composite": 400
+      },
+      "rank": 5,
+      "last_updated": "2026-03-31T20:22:24.629669+00:00"
+    },
+    {
+      "slug": "gamma",
+      "name": "Gamma",
+      "category": "AI Productivity",
+      "url": "https://gamma.app",
+      "description": "AI-powered presentation and document builder with beautiful templates",
+      "pricing": "Free / Plus $10/mo / Pro $20/mo",
+      "affiliate_url": "",
+      "tags": [
+        "presentations",
+        "slides",
+        "documents",
+        "design"
+      ],
+      "scores": {
+        "github_repos": 6160,
+        "qiita_mentions": 100,
+        "composite": 283
+      },
+      "rank": 6,
+      "last_updated": "2026-03-31T20:22:12.982757+00:00"
+    },
+    {
+      "slug": "lovable",
+      "name": "Lovable",
+      "category": "AI App Builder",
+      "url": "https://lovable.dev",
+      "description": "AI full-stack app builder that generates production-ready web apps from prompts",
+      "pricing": "Free / Starter $20/mo / Launch $50/mo / Scale $100/mo",
+      "affiliate_url": "",
+      "tags": [
+        "app-builder",
+        "no-code",
+        "fullstack",
+        "deployment"
+      ],
+      "scores": {
+        "github_repos": 5166,
+        "qiita_mentions": 100,
+        "composite": 253
+      },
+      "rank": 7,
+      "last_updated": "2026-03-31T20:22:16.713008+00:00"
+    },
+    {
+      "slug": "jasper",
+      "name": "Jasper",
+      "category": "AI Marketing",
+      "url": "https://jasper.ai",
+      "description": "AI marketing platform for content creation, brand voice, and campaigns",
+      "pricing": "Creator $49/mo / Pro $69/mo / Business custom",
+      "affiliate_url": "",
+      "tags": [
+        "marketing",
+        "copywriting",
+        "content",
+        "brand"
+      ],
+      "scores": {
+        "github_repos": 2295,
+        "qiita_mentions": 100,
+        "composite": 166
+      },
+      "rank": 8,
+      "last_updated": "2026-03-31T20:21:32.296924+00:00"
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "category": "AI Code Editor",
+      "url": "https://codeium.com/windsurf",
+      "description": "AI-powered IDE by Codeium with agentic coding capabilities",
+      "pricing": "Free / Pro $15/mo / Teams $35/mo",
+      "affiliate_url": "",
+      "tags": [
+        "coding",
+        "ide",
+        "agentic",
+        "developer"
+      ],
+      "scores": {
+        "github_repos": 2198,
+        "qiita_mentions": 100,
+        "composite": 163
+      },
+      "rank": 9,
+      "last_updated": "2026-03-31T20:22:28.423880+00:00"
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "category": "AI Image Generation",
+      "url": "https://midjourney.com",
+      "description": "AI image generation tool creating stunning visuals from text prompts",
+      "pricing": "Basic $10/mo / Standard $30/mo / Pro $60/mo",
+      "affiliate_url": "",
+      "tags": [
+        "image",
+        "art",
+        "design",
+        "creative"
+      ],
+      "scores": {
+        "github_repos": 1741,
+        "qiita_mentions": 100,
+        "composite": 151
+      },
+      "rank": 10,
+      "last_updated": "2026-03-31T20:21:25.257988+00:00"
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity AI",
+      "category": "AI Search",
+      "url": "https://perplexity.ai",
+      "description": "AI-powered search engine with cited sources and real-time answers",
+      "pricing": "Free / Pro $20/mo",
+      "affiliate_url": "",
+      "tags": [
+        "search",
+        "research",
+        "citations"
+      ],
+      "scores": {
+        "github_repos": 1663,
+        "qiita_mentions": 100,
+        "composite": 148
+      },
+      "rank": 11,
+      "last_updated": "2026-03-31T20:21:39.275878+00:00"
+    },
+    {
+      "slug": "notion-ai",
+      "name": "Notion AI",
+      "category": "AI Productivity",
+      "url": "https://notion.so",
+      "description": "AI-powered workspace for notes, docs, and project management",
+      "pricing": "Free / Plus $10/mo / AI add-on $10/mo",
+      "affiliate_url": "",
+      "tags": [
+        "productivity",
+        "notes",
+        "project-management",
+        "writing"
+      ],
+      "scores": {
+        "github_repos": 1449,
+        "qiita_mentions": 100,
+        "composite": 142
+      },
+      "rank": 12,
+      "last_updated": "2026-03-31T20:21:28.827971+00:00"
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "category": "AI Video",
+      "url": "https://runwayml.com",
+      "description": "AI-powered creative suite for video generation and editing",
+      "pricing": "Free / Standard $15/mo / Pro $35/mo / Unlimited $95/mo",
+      "affiliate_url": "",
+      "tags": [
+        "video",
+        "creative",
+        "editing",
+        "generation"
+      ],
+      "scores": {
+        "github_repos": 1479,
+        "qiita_mentions": 100,
+        "composite": 142
+      },
+      "rank": 13,
+      "last_updated": "2026-03-31T20:21:42.718051+00:00"
+    },
+    {
+      "slug": "suno",
+      "name": "Suno",
+      "category": "AI Audio",
+      "url": "https://suno.com",
+      "description": "AI music generation platform creating full songs from text prompts",
+      "pricing": "Free / Pro $10/mo / Premier $30/mo",
+      "affiliate_url": "",
+      "tags": [
+        "music",
+        "audio",
+        "creative",
+        "generation"
+      ],
+      "scores": {
+        "github_repos": 1044,
+        "qiita_mentions": 100,
+        "composite": 130
+      },
+      "rank": 14,
+      "last_updated": "2026-03-31T20:22:31.903238+00:00"
+    },
+    {
+      "slug": "bolt",
+      "name": "Bolt.new",
+      "category": "AI App Builder",
+      "url": "https://bolt.new",
+      "description": "AI-powered full-stack web development environment by StackBlitz",
+      "pricing": "Free / Pro $20/mo / Teams $30/mo",
+      "affiliate_url": "",
+      "tags": [
+        "app-builder",
+        "coding",
+        "fullstack",
+        "web"
+      ],
+      "scores": {
+        "github_repos": 779,
+        "qiita_mentions": 100,
+        "composite": 121
+      },
+      "rank": 15,
+      "last_updated": "2026-03-31T20:22:20.248876+00:00"
+    },
+    {
+      "slug": "heygen",
+      "name": "HeyGen",
+      "category": "AI Video",
+      "url": "https://heygen.com",
+      "description": "AI video creation platform with avatar presenters and voice cloning",
+      "pricing": "Free / Creator $29/mo / Business $89/mo",
+      "affiliate_url": "",
+      "tags": [
+        "video",
+        "avatar",
+        "marketing",
+        "training"
+      ],
+      "scores": {
+        "github_repos": 274,
+        "qiita_mentions": 100,
+        "composite": 106
+      },
+      "rank": 16,
+      "last_updated": "2026-03-31T20:22:35.539297+00:00"
+    },
+    {
+      "slug": "v0",
+      "name": "v0 by Vercel",
+      "category": "AI UI Generator",
+      "url": "https://v0.dev",
+      "description": "AI-powered UI component generator using natural language",
+      "pricing": "Free / Premium $20/mo",
+      "affiliate_url": "",
+      "tags": [
+        "ui",
+        "frontend",
+        "design",
+        "react"
+      ],
+      "scores": {
+        "github_repos": 53,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 17,
+      "last_updated": "2026-03-31T20:21:21.749958+00:00"
+    },
+    {
+      "slug": "replit",
+      "name": "Replit",
+      "category": "AI Code Editor",
+      "url": "https://replit.com",
+      "description": "Browser-based IDE with AI coding assistant and instant deployment",
+      "pricing": "Free / Replit Core $25/mo / Teams $15/user/mo",
+      "affiliate_url": "",
+      "tags": [
+        "coding",
+        "ide",
+        "deployment",
+        "collaboration"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 18,
+      "last_updated": "2026-03-31T20:21:45.903659+00:00"
+    },
+    {
+      "slug": "descript",
+      "name": "Descript",
+      "category": "AI Video",
+      "url": "https://descript.com",
+      "description": "AI-powered video and podcast editor with text-based editing",
+      "pricing": "Free / Hobbyist $24/mo / Business $33/mo",
+      "affiliate_url": "",
+      "tags": [
+        "video",
+        "podcast",
+        "editing",
+        "transcription"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 19,
+      "last_updated": "2026-03-31T20:21:49.508397+00:00"
+    },
+    {
+      "slug": "copy-ai",
+      "name": "Copy.ai",
+      "category": "AI Marketing",
+      "url": "https://copy.ai",
+      "description": "AI-powered sales and marketing content generation platform",
+      "pricing": "Free / Starter $49/mo / Advanced $249/mo",
+      "affiliate_url": "",
+      "tags": [
+        "marketing",
+        "copywriting",
+        "sales",
+        "content"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 20,
+      "last_updated": "2026-03-31T20:21:52.783493+00:00"
+    },
+    {
+      "slug": "otter-ai",
+      "name": "Otter.ai",
+      "category": "AI Productivity",
+      "url": "https://otter.ai",
+      "description": "AI meeting assistant for transcription, notes, and action items",
+      "pricing": "Free / Pro $16.99/mo / Business $30/mo",
+      "affiliate_url": "",
+      "tags": [
+        "meetings",
+        "transcription",
+        "notes",
+        "productivity"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 21,
+      "last_updated": "2026-03-31T20:21:56.099290+00:00"
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "AI Audio",
+      "url": "https://elevenlabs.io",
+      "description": "AI voice generation and cloning platform with natural-sounding speech",
+      "pricing": "Free / Starter $5/mo / Creator $22/mo / Pro $99/mo",
+      "affiliate_url": "",
+      "tags": [
+        "voice",
+        "audio",
+        "tts",
+        "speech"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 22,
+      "last_updated": "2026-03-31T20:21:59.355005+00:00"
+    },
+    {
+      "slug": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "category": "AI Image Generation",
+      "url": "https://leonardo.ai",
+      "description": "AI image generation platform with fine-tuned models and asset creation",
+      "pricing": "Free / Apprentice $12/mo / Artisan $30/mo / Maestro $60/mo",
+      "affiliate_url": "",
+      "tags": [
+        "image",
+        "art",
+        "game-assets",
+        "design"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 23,
+      "last_updated": "2026-03-31T20:22:02.648046+00:00"
+    },
+    {
+      "slug": "synthesia",
+      "name": "Synthesia",
+      "category": "AI Video",
+      "url": "https://synthesia.io",
+      "description": "AI video generation platform with realistic avatar presenters",
+      "pricing": "Starter $29/mo / Creator $89/mo / Enterprise custom",
+      "affiliate_url": "",
+      "tags": [
+        "video",
+        "avatar",
+        "training",
+        "enterprise"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 24,
+      "last_updated": "2026-03-31T20:22:05.942473+00:00"
+    },
+    {
+      "slug": "writesonic",
+      "name": "Writesonic",
+      "category": "AI Marketing",
+      "url": "https://writesonic.com",
+      "description": "AI writing and marketing tool for blogs, ads, and social media",
+      "pricing": "Free / Individual $16/mo / Team $13/mo/user",
+      "affiliate_url": "",
+      "tags": [
+        "writing",
+        "marketing",
+        "seo",
+        "blog"
+      ],
+      "scores": {
+        "github_repos": 0,
+        "qiita_mentions": 100,
+        "composite": 100
+      },
+      "rank": 25,
+      "last_updated": "2026-03-31T20:22:09.328858+00:00"
+    }
+  ]
+}
