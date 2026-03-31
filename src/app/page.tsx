@@ -26,23 +26,18 @@ interface Rankings {
 }
 
 function loadRankings(): Rankings {
-  const rankingsPath = join(process.cwd(), "..", "data", "rankings.json");
-  if (existsSync(rankingsPath)) {
-    return JSON.parse(readFileSync(rankingsPath, "utf-8"));
+  // Try multiple paths for compatibility between local dev and Vercel
+  const candidates = [
+    join(process.cwd(), "public", "rankings.json"),
+    join(process.cwd(), "..", "data", "rankings.json"),
+  ];
+  for (const p of candidates) {
+    if (existsSync(p)) {
+      return JSON.parse(readFileSync(p, "utf-8"));
+    }
   }
-  // Fallback to seed data
-  const seedPath = join(process.cwd(), "..", "data", "tools_seed.json");
-  const tools = JSON.parse(readFileSync(seedPath, "utf-8"));
-  return {
-    generated_at: new Date().toISOString(),
-    total_tools: tools.length,
-    rankings: tools.map((t: Record<string, unknown>, i: number) => ({
-      ...t,
-      scores: { github_repos: 0, qiita_mentions: 0, composite: 0 },
-      rank: i + 1,
-      last_updated: new Date().toISOString(),
-    })),
-  };
+  // Inline fallback data if no file found
+  return { generated_at: new Date().toISOString(), total_tools: 0, rankings: [] };
 }
 
 const CATEGORY_COLORS: Record<string, string> = {
